@@ -18,10 +18,8 @@
 
 		</ul>
 
-		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="http://cloud.github.com/downloads/wycats/handlebars.js/handlebars-1.0.0.beta.6.js"></script>
-		<script type="text/javascript" src="js/functions.js"></script>	
-
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="http://cloud.github.com/downloads/wycats/handlebars.js/handlebars-1.0.0.beta.6.js"></script>	
 		<script>
 			(function() {
 
