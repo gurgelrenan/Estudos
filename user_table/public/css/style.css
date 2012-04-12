@@ -1,0 +1,186 @@
+/* Set the stage */
+body
+{
+    background:#222;
+    font-family:Arial, sans-serif;
+    text-align:center;
+    font-size:15px;
+}
+ 
+/* Table styles */
+#ajax_table
+{
+    margin:50px auto 20px auto;
+    border:1px solid #111;
+    text-align:left;
+}
+/* Caption */
+#ajax_table caption
+{
+    text-align:left;
+    padding:20px;
+    font-size:22px;
+    color:#fff;
+    text-shadow:#111 0px 1px 1px;
+}
+ 
+/* Headings & Cells */
+#ajax_table thead tr th, #ajax_table tbody tr td
+{
+    padding:10px 10px 10px 20px;
+}
+ 
+/* Headings */
+#ajax_table thead tr th
+{
+    background:#DEDEDE;
+    border-bottom:1px solid #CCC;
+    color:#666;
+    font-size:13px;
+    text-shadow:#FFF 0px 1px 1px;
+}
+/* Cells */
+#ajax_table tbody tr td
+{
+    background:#CEEAF9;
+    border-top:1px solid #fff;
+    border-bottom:1px solid #AED7EC;
+    color:#294A64;
+    text-shadow:#fff 0px 1px 1px;
+}
+/* Alternate cells */
+#ajax_table tbody tr.alternate td
+{
+    background:#fff;
+    color:#555;
+    border-bottom:none;
+    text-shadow:none;
+}
+/* Footer */
+#ajax_table tfoot tr td
+{
+    background:#DEDEDE;
+    border-top:1px solid #fff;
+    border-bottom:1px solid #CCC;
+    padding:5px 10px;
+    text-align:right;
+    font-size:12px;
+    color:#666;
+    text-shadow:#FFF 0px 1px 1px;
+    font-style:italic;
+}
+ 
+/* Button list */
+ul.buttons
+{
+    float:right;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+    ul.buttons li
+    {
+        float:left;
+        padding:0;
+        margin:0 5px;
+    }
+ 
+/* Buttons */
+button
+{
+    font-size:12px!important;
+    outline:none;
+}
+ 
+/* User Form */
+#user_form
+{
+    display:none;
+    text-align:left;
+    padding-top:20px;
+    font-size:13px;
+}
+/* Labels */
+#user_form label
+{
+    float:left;
+    width:120px;
+    margin:0 0 10px 0;
+    height:22px;
+    line-height:22px;
+}
+/* Inputs */
+#user_form input[type=text]
+{
+    float:left;
+    width:240px;
+    padding:5px;
+    height:10px;
+    margin:0 0 10px 0;
+    border:1px solid #999;
+}
+/* Selects */
+#user_form select
+{
+    float:left;
+    margin:0 0 10px 0;
+}
+ 
+/* Form feedback */
+p.feedback
+{
+    display:none;
+    margin:0 0 20px 0!important;
+    padding:5px 10px;
+    border-radius:5px;
+    text-align:center;
+}
+/* Error */
+p.error
+{
+    background:#E97979;
+    color:#752121;
+    border:1px solid #D13E3E;
+}
+/* Notify */
+p.notify
+{
+    background:#FBD480;
+    color:#5D4616;
+    border:1px solid #DDBB45;
+}
+ 
+/* Notification paragraph */
+p#notification
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    display:none;
+    text-align:center;
+    padding:15px 0;
+    margin:0;
+    color:#fff;
+}
+ 
+p#notification.error
+{
+    background:red;
+}
+ 
+p#notification.success
+{
+    background:green;
+}
+ 
+/* Generic */
+.float-right
+{
+    float:right;
+}
+ 
+.clear
+{
+    clear:both;
+}
